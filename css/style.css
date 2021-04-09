@@ -9,6 +9,7 @@
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1.5;
+  text-align: center;
 }
 
 .container {
@@ -19,17 +20,36 @@ body {
 }
 
 .card {
+  background-color: #01101e;
   height: 500px;
   width: 300px;
   margin: 20px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 3px 5px #000;
+  color: #f4f4f4;
 }
 
-.card .bg-img img {
+.card .bg-image img {
   width: 100%;
   height: 230px;
   object-fit: cover;
   clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 100%, 0 70%);
+}
+
+.card .pic {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  border: 5px solid #01101e;
+  position: relative;
+  margin-top: -90px;
+}
+
+.card .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
 }
