@@ -9,7 +9,6 @@
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1.5;
-  text-align: center;
 }
 
 .container {
@@ -28,6 +27,7 @@ body {
   overflow: hidden;
   box-shadow: 0 3px 5px #000;
   color: #f4f4f4;
+  text-align: center;
 }
 
 .card .bg-image img {
@@ -43,6 +43,7 @@ body {
   border-radius: 50%;
   border: 5px solid #01101e;
   position: relative;
+  left: 30%;
   margin-top: -90px;
 }
 
@@ -50,6 +51,22 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  display: block;
-  text-align: center;
+}
+
+.info {
+  padding: 0 10px;
+}
+
+.info h3 {
+  font-weight: 300;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lni {
+  margin-top: 20px;
+  font-size: 1.5rem;
 }
